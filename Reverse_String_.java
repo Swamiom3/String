@@ -4,7 +4,8 @@ public class Reverse_String_ {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
-		String string="im omkar swami";
+		System.out.println("enter your string");
+		String string=sc.nextLine();
 		
 		for(int i=0; i<string.length(); i++)
 		{
@@ -12,9 +13,9 @@ public class Reverse_String_ {
 		}
 		System.out.println("\n**********************");
 		System.out.println("YOUR REVERSE STRING");
-		for(int i=string.length()-1; i>0; i--)
+		for(int i=string.length()-1; i>=0; i--)
 		{
-			System.out.print(string.charAt(i)+" ");
+			System.out.print(string.charAt(i));
 		}
 
 	}

@@ -12,5 +12,4 @@ public class Equalto_compare_method {
 		System.out.println(s.equals(s1));
 
 	}
-
 }

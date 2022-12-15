@@ -9,7 +9,8 @@ public class Serch_char_index {
 	
 	public void Input()
 	{
-		System.out.println("ENTER YOUR STRING");
+		System.o
+		ut.println("ENTER YOUR STRING");
 		 string=sc.nextLine();
 		
 		System.out.println(" "+string);
